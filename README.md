@@ -100,6 +100,7 @@ Chỉnh file `data/words.json`. Mỗi từ là một object:
   "examples": [
     {
       "zh": "我的电脑很快。",
+      "py": "Wǒ de diànnǎo hěn kuài.",
       "vi": "Máy tính của tôi rất nhanh."
     }
   ],
@@ -119,7 +120,7 @@ Chỉnh file `data/words.json`. Mỗi từ là một object:
 | `hanzi` | Có | Chữ Hán |
 | `pinyin` | Có | Phiên âm (có dấu thanh) |
 | `meaning` | Có | Nghĩa tiếng Việt |
-| `examples` | Không | Mảng ví dụ `{ zh, vi }` |
+| `examples` | Không | Mảng ví dụ `{ zh, py, vi }` — `py` là phiên âm câu ví dụ |
 | `priority` | Có | 1 (ít gặp) → 5 (hay gặp) |
 | `createdAt` | Có | Ngày thêm, format `YYYY-MM-DD` |
 | `lastReviewed` | Không | Ngày ôn gần nhất hoặc `null` |

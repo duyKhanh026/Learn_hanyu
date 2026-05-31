@@ -1,4 +1,4 @@
-import { speakChinese } from '../utils/speech';
+import { speakChinese, speakChineseSequence } from '../utils/speech';
 
 function PriorityBadge({ priority }) {
   const colors = ['', '#64748b', '#94a3b8', '#38bdf8', '#818cf8', '#a78bfa'];
@@ -38,9 +38,19 @@ export default function Flashcard({
     );
   }
 
-  function handleSpeak(e) {
+  function handleSpeakWord(e) {
     e.stopPropagation();
     speakChinese(word.hanzi);
+  }
+
+  function handleSpeakExample(e, zh) {
+    e.stopPropagation();
+    speakChinese(zh);
+  }
+
+  function handleSpeakAllExamples(e) {
+    e.stopPropagation();
+    speakChineseSequence(word.examples?.map((ex) => ex.zh) || []);
   }
 
   return (
@@ -90,10 +100,35 @@ export default function Flashcard({
 
             {word.examples?.length > 0 && (
               <div className="examples">
+                <div className="examples-header">
+                  <span className="examples-label">Ví dụ</span>
+                  {word.examples.length > 1 && (
+                    <button
+                      type="button"
+                      className="speak-example-btn speak-all-btn"
+                      onClick={handleSpeakAllExamples}
+                      title="Đọc tất cả ví dụ"
+                    >
+                      🔊 Tất cả
+                    </button>
+                  )}
+                </div>
                 {word.examples.map((ex, i) => (
                   <div key={i} className="example-item">
-                    <p className="example-zh">{ex.zh}</p>
-                    <p className="example-vi">{ex.vi}</p>
+                    <div className="example-content">
+                      <p className="example-zh">{ex.zh}</p>
+                      {ex.py && <p className="example-py">{ex.py}</p>}
+                      <p className="example-vi">{ex.vi}</p>
+                    </div>
+                    <button
+                      type="button"
+                      className="speak-example-btn"
+                      onClick={(e) => handleSpeakExample(e, ex.zh)}
+                      title="Đọc câu ví dụ"
+                      aria-label="Đọc câu ví dụ"
+                    >
+                      🔊
+                    </button>
                   </div>
                 ))}
               </div>
@@ -110,9 +145,11 @@ export default function Flashcard({
 
             <TagList tags={word.tags} />
 
-            <button type="button" className="speak-btn" onClick={handleSpeak}>
-              🔊 Phát âm
-            </button>
+            <div className="speak-actions">
+              <button type="button" className="speak-btn" onClick={handleSpeakWord}>
+                🔊 Phát âm từ
+              </button>
+            </div>
           </div>
         </div>
       </div>

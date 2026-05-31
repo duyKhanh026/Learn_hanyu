@@ -68,7 +68,7 @@ export function filterWords(words, { searchQuery = '', selectedTags = [], favori
       word.hanzi,
       word.pinyin,
       word.meaning,
-      ...(word.examples?.flatMap((e) => [e.zh, e.vi]) || []),
+      ...(word.examples?.flatMap((e) => [e.zh, e.py, e.vi].filter(Boolean)) || []),
     ]
       .join(' ')
       .toLowerCase();

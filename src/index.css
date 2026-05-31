@@ -576,16 +576,73 @@ body {
   margin-top: 0.5rem;
 }
 
+.examples-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.examples-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 .example-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
   background: var(--bg-hover);
   border-radius: var(--radius-sm);
   padding: 0.625rem 0.875rem;
   margin-bottom: 0.5rem;
 }
 
+.example-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.speak-example-btn {
+  flex-shrink: 0;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: var(--transition);
+  line-height: 1;
+}
+
+.speak-example-btn:hover {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+}
+
+.speak-all-btn {
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.speak-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
 .example-zh {
   font-family: var(--font-hanzi);
   font-size: 0.95rem;
+}
+
+.example-py {
+  font-size: 0.8rem;
+  color: var(--accent-hover);
+  font-style: italic;
+  margin-top: 0.2rem;
 }
 
 .example-vi {
@@ -951,6 +1008,13 @@ kbd {
   font-size: 0.9rem;
   margin-top: 0.5rem;
   color: var(--text-secondary);
+}
+
+.quiz-example-py {
+  font-size: 0.8rem;
+  color: var(--accent-hover);
+  font-style: italic;
+  margin-top: 0.25rem;
 }
 
 .quiz-actions {

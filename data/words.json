@@ -1,143 +1,3444 @@
 [
   {
     "id": 1,
-    "hanzi": "颜色",
-    "pinyin": "yánsè",
-    "meaning": "màu sắc",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaning": "bạn",
     "examples": [
-      { "zh": "这个颜色很好看。", "vi": "Màu này rất đẹp." }
+      {
+        "zh": "你好！",
+        "py": "Nǐ hǎo!",
+        "vi": "Xin chào!"
+      }
     ],
     "priority": 5,
     "createdAt": "2026-05-31",
     "lastReviewed": null,
     "reviewCount": 0,
-    "tags": ["design", "daily"]
+    "tags": [
+      "lesson1",
+      "pronoun"
+    ]
   },
   {
     "id": 2,
-    "hanzi": "工作",
-    "pinyin": "gōngzuò",
-    "meaning": "công việc, làm việc",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaning": "tôi",
     "examples": [
-      { "zh": "我今天有很多工作。", "vi": "Hôm nay tôi có nhiều việc." },
-      { "zh": "他在公司工作。", "vi": "Anh ấy làm việc ở công ty." }
+      {
+        "zh": "我也很好，谢谢。",
+        "py": "Wǒ yě hěn hǎo, xiè xie.",
+        "vi": "Tôi cũng rất khỏe, cảm ơn."
+      }
     ],
-    "priority": 4,
-    "createdAt": "2026-05-28",
+    "priority": 5,
+    "createdAt": "2026-05-31",
     "lastReviewed": null,
     "reviewCount": 0,
-    "tags": ["work", "daily"]
+    "tags": [
+      "lesson1",
+      "pronoun"
+    ]
   },
   {
     "id": 3,
-    "hanzi": "设计",
-    "pinyin": "shèjì",
-    "meaning": "thiết kế",
+    "hanzi": "您",
+    "pinyin": "nín",
+    "meaning": "ngài, ông, bà (lịch sự)",
     "examples": [
-      { "zh": "这个设计很有创意。", "vi": "Thiết kế này rất sáng tạo." }
+      {
+        "zh": "您好！",
+        "py": "Nín hǎo!",
+        "vi": "Chào ngài!"
+      }
     ],
-    "priority": 5,
-    "createdAt": "2026-05-25",
-    "lastReviewed": "2026-05-30",
-    "reviewCount": 3,
-    "tags": ["design", "work"]
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "pronoun",
+      "polite"
+    ]
   },
   {
     "id": 4,
-    "hanzi": "吃饭",
-    "pinyin": "chīfàn",
-    "meaning": "ăn cơm, ăn uống",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "meaning": "anh ấy",
     "examples": [
-      { "zh": "我们一起吃饭吧。", "vi": "Chúng ta cùng ăn cơm nhé." }
+      {
+        "zh": "他不好。",
+        "py": "Tā bù hǎo.",
+        "vi": "Anh ấy không khỏe."
+      }
     ],
-    "priority": 3,
-    "createdAt": "2026-05-20",
+    "priority": 5,
+    "createdAt": "2026-05-31",
     "lastReviewed": null,
     "reviewCount": 0,
-    "tags": ["food", "daily"]
+    "tags": [
+      "lesson1",
+      "pronoun"
+    ]
   },
   {
     "id": 5,
-    "hanzi": "咖啡",
-    "pinyin": "kāfēi",
-    "meaning": "cà phê",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "meaning": "cô ấy",
     "examples": [
-      { "zh": "我想喝一杯咖啡。", "vi": "Tôi muốn uống một ly cà phê." }
+      {
+        "zh": "她不好。",
+        "py": "Tā bù hǎo.",
+        "vi": "Cô ấy không khỏe."
+      }
     ],
-    "priority": 2,
-    "createdAt": "2026-05-18",
-    "lastReviewed": "2026-05-29",
-    "reviewCount": 5,
-    "tags": ["food", "daily"]
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "pronoun"
+    ]
   },
   {
     "id": 6,
-    "hanzi": "学习",
-    "pinyin": "xuéxí",
-    "meaning": "học tập",
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "meaning": "chúng tôi, chúng ta",
     "examples": [
-      { "zh": "我每天都在学习中文。", "vi": "Tôi học tiếng Trung mỗi ngày." }
+      {
+        "zh": "我们是同学。",
+        "py": "Wǒmen shì tóngxué.",
+        "vi": "Chúng tôi là bạn học."
+      }
     ],
     "priority": 5,
-    "createdAt": "2026-05-15",
-    "lastReviewed": "2026-05-31",
-    "reviewCount": 8,
-    "tags": ["daily"]
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "pronoun",
+      "plural"
+    ]
   },
   {
     "id": 7,
-    "hanzi": "会议",
-    "pinyin": "huìyì",
-    "meaning": "cuộc họp",
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "meaning": "các bạn, mọi người",
     "examples": [
-      { "zh": "下午三点有一个会议。", "vi": "Lúc 3 giờ chiều có một cuộc họp." }
+      {
+        "zh": "你们好！",
+        "py": "Nǐmen hǎo!",
+        "vi": "Chào các bạn!"
+      }
     ],
-    "priority": 4,
-    "createdAt": "2026-05-12",
+    "priority": 5,
+    "createdAt": "2026-05-31",
     "lastReviewed": null,
     "reviewCount": 0,
-    "tags": ["work"]
+    "tags": [
+      "lesson1",
+      "pronoun",
+      "plural"
+    ]
   },
   {
     "id": 8,
-    "hanzi": "漂亮",
-    "pinyin": "piàoliang",
-    "meaning": "đẹp, xinh đẹp",
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "meaning": "họ, chúng",
     "examples": [
-      { "zh": "这个房间很漂亮。", "vi": "Căn phòng này rất đẹp." }
+      {
+        "zh": "他们是谁？",
+        "py": "Tā men shì shéi?",
+        "vi": "Họ là ai?"
+      }
     ],
-    "priority": 3,
-    "createdAt": "2026-05-10",
-    "lastReviewed": "2026-05-27",
-    "reviewCount": 2,
-    "tags": ["design", "daily"]
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "pronoun",
+      "plural"
+    ]
   },
   {
     "id": 9,
-    "hanzi": "菜单",
-    "pinyin": "càidān",
-    "meaning": "thực đơn",
+    "hanzi": "她们",
+    "pinyin": "tāmen",
+    "meaning": "họ (dùng cho nữ)",
     "examples": [
-      { "zh": "请给我菜单。", "vi": "Xin cho tôi thực đơn." }
+      {
+        "zh": "她们是谁？",
+        "py": "Tā men shì shéi?",
+        "vi": "Họ là ai?"
+      }
     ],
-    "priority": 2,
-    "createdAt": "2026-05-08",
+    "priority": 4,
+    "createdAt": "2026-05-31",
     "lastReviewed": null,
     "reviewCount": 0,
-    "tags": ["food"]
+    "tags": [
+      "lesson1",
+      "pronoun",
+      "plural"
+    ]
   },
   {
     "id": 10,
-    "hanzi": "重要",
-    "pinyin": "zhòngyào",
-    "meaning": "quan trọng",
+    "hanzi": "你好",
+    "pinyin": "nǐhǎo",
+    "meaning": "xin chào",
     "examples": [
-      { "zh": "这是一个很重要的问题。", "vi": "Đây là một vấn đề rất quan trọng." }
+      {
+        "zh": "你好！很高兴认识你。",
+        "py": "Nǐ hǎo! Hěn gāoxìng rènshi nǐ.",
+        "vi": "Xin chào! Rất vui được gặp bạn."
+      }
     ],
     "priority": 5,
-    "createdAt": "2026-05-05",
-    "lastReviewed": "2026-05-26",
-    "reviewCount": 4,
-    "tags": ["work", "daily"]
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "greeting"
+    ]
+  },
+  {
+    "id": 11,
+    "hanzi": "您好",
+    "pinyin": "nínhǎo",
+    "meaning": "chào ngài",
+    "examples": [
+      {
+        "zh": "您好！",
+        "py": "Nín hǎo!",
+        "vi": "Chào ngài!"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "greeting",
+      "polite"
+    ]
+  },
+  {
+    "id": 12,
+    "hanzi": "早上好",
+    "pinyin": "zǎoshang hǎo",
+    "meaning": "chào buổi sáng",
+    "examples": [
+      {
+        "zh": "早上好！",
+        "py": "Zǎoshang hǎo!",
+        "vi": "Chào buổi sáng!"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "greeting",
+      "time"
+    ]
+  },
+  {
+    "id": 13,
+    "hanzi": "晚上好",
+    "pinyin": "wǎnshang hǎo",
+    "meaning": "chào buổi tối",
+    "examples": [
+      {
+        "zh": "晚上好。",
+        "py": "Wǎnshang hǎo.",
+        "vi": "Chào buổi tối."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "greeting",
+      "time"
+    ]
+  },
+  {
+    "id": 14,
+    "hanzi": "你好吗",
+    "pinyin": "nǐ hǎo ma",
+    "meaning": "bạn khỏe không",
+    "examples": [
+      {
+        "zh": "大家好，你们好吗？",
+        "py": "Dà jiā hǎo, nǐ men hǎo ma?",
+        "vi": "Chào mọi người, mọi người khỏe không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "greeting",
+      "question"
+    ]
+  },
+  {
+    "id": 15,
+    "hanzi": "我很好",
+    "pinyin": "wǒ hěn hǎo",
+    "meaning": "tôi rất khỏe",
+    "examples": [
+      {
+        "zh": "我很好。你呢？",
+        "py": "Wǒ hěn hǎo. Nǐ ne?",
+        "vi": "Tôi rất khỏe. Bạn thì sao?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "phrase",
+      "daily"
+    ]
+  },
+  {
+    "id": 16,
+    "hanzi": "谢谢",
+    "pinyin": "xiè xie",
+    "meaning": "cảm ơn",
+    "examples": [
+      {
+        "zh": "我也很好，谢谢。",
+        "py": "Wǒ yě hěn hǎo, xiè xie.",
+        "vi": "Tôi cũng rất khỏe, cảm ơn."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "polite"
+    ]
+  },
+  {
+    "id": 17,
+    "hanzi": "不客气",
+    "pinyin": "bù kè qì",
+    "meaning": "không có chi",
+    "examples": [
+      {
+        "zh": "不客气。",
+        "py": "Bú kèqi.",
+        "vi": "Không có chi."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "polite"
+    ]
+  },
+  {
+    "id": 18,
+    "hanzi": "对不起",
+    "pinyin": "duì bù qǐ",
+    "meaning": "xin lỗi",
+    "examples": [
+      {
+        "zh": "对不起。",
+        "py": "Duì bù qǐ.",
+        "vi": "Xin lỗi."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "polite"
+    ]
+  },
+  {
+    "id": 19,
+    "hanzi": "没关系",
+    "pinyin": "méiguānxi",
+    "meaning": "không sao",
+    "examples": [
+      {
+        "zh": "没关系。",
+        "py": "Méiguānxi.",
+        "vi": "Không sao."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "polite"
+    ]
+  },
+  {
+    "id": 20,
+    "hanzi": "再见",
+    "pinyin": "zài jiàn",
+    "meaning": "tạm biệt",
+    "examples": [
+      {
+        "zh": "再见。",
+        "py": "Zàijiàn.",
+        "vi": "Tạm biệt."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "greeting",
+      "farewell"
+    ]
+  },
+  {
+    "id": 21,
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "meaning": "quen, biết",
+    "examples": [
+      {
+        "zh": "今天很高兴认识你。",
+        "py": "Jīntiān hěn gāoxìng rènshi nǐ.",
+        "vi": "Hôm nay rất vui được quen bạn."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "verb"
+    ]
+  },
+  {
+    "id": 22,
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "meaning": "vui",
+    "examples": [
+      {
+        "zh": "我也很高兴认识你。",
+        "py": "Wǒ yě hěn gāoxìng rènshi nǐ.",
+        "vi": "Tôi cũng rất vui được quen bạn."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson1",
+      "adjective",
+      "feeling"
+    ]
+  },
+  {
+    "id": 23,
+    "hanzi": "零",
+    "pinyin": "líng",
+    "meaning": "không, số 0",
+    "examples": [
+      {
+        "zh": "一百零六",
+        "py": "Yì bǎi líng liù",
+        "vi": "Một trăm linh sáu (106)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 24,
+    "hanzi": "一",
+    "pinyin": "yī",
+    "meaning": "một",
+    "examples": [
+      {
+        "zh": "一百",
+        "py": "Yì bǎi",
+        "vi": "Một trăm (100)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 25,
+    "hanzi": "二",
+    "pinyin": "èr",
+    "meaning": "hai",
+    "examples": [
+      {
+        "zh": "二百",
+        "py": "Èr bǎi",
+        "vi": "Hai trăm (200)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 26,
+    "hanzi": "三",
+    "pinyin": "sān",
+    "meaning": "ba",
+    "examples": [
+      {
+        "zh": "三十",
+        "py": "Sān shí",
+        "vi": "Ba mươi (30)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 27,
+    "hanzi": "四",
+    "pinyin": "sì",
+    "meaning": "bốn",
+    "examples": [
+      {
+        "zh": "四十",
+        "py": "Sì shí",
+        "vi": "Bốn mươi (40)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 28,
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "meaning": "năm",
+    "examples": [
+      {
+        "zh": "五十",
+        "py": "Wǔ shí",
+        "vi": "Năm mươi (50)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 29,
+    "hanzi": "六",
+    "pinyin": "liù",
+    "meaning": "sáu",
+    "examples": [
+      {
+        "zh": "六十",
+        "py": "Liù shí",
+        "vi": "Sáu mươi (60)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 30,
+    "hanzi": "七",
+    "pinyin": "qī",
+    "meaning": "bảy",
+    "examples": [
+      {
+        "zh": "七十",
+        "py": "Qī shí",
+        "vi": "Bảy mươi (70)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 31,
+    "hanzi": "八",
+    "pinyin": "bā",
+    "meaning": "tám",
+    "examples": [
+      {
+        "zh": "八十",
+        "py": "Bā shí",
+        "vi": "Tám mươi (80)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 32,
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "meaning": "chín",
+    "examples": [
+      {
+        "zh": "九十",
+        "py": "Jiǔ shí",
+        "vi": "Chín mươi (90)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 33,
+    "hanzi": "十",
+    "pinyin": "shí",
+    "meaning": "mười",
+    "examples": [
+      {
+        "zh": "十八",
+        "py": "Shí bā",
+        "vi": "Mười tám (18)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 34,
+    "hanzi": "二十",
+    "pinyin": "èrshí",
+    "meaning": "hai mươi",
+    "examples": [
+      {
+        "zh": "二十",
+        "py": "Èr shí",
+        "vi": "Hai mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 35,
+    "hanzi": "三十",
+    "pinyin": "sānshí",
+    "meaning": "ba mươi",
+    "examples": [
+      {
+        "zh": "三十",
+        "py": "Sān shí",
+        "vi": "Ba mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 36,
+    "hanzi": "四十",
+    "pinyin": "sìshí",
+    "meaning": "bốn mươi",
+    "examples": [
+      {
+        "zh": "四十",
+        "py": "Sì shí",
+        "vi": "Bốn mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 37,
+    "hanzi": "五十",
+    "pinyin": "wǔshí",
+    "meaning": "năm mươi",
+    "examples": [
+      {
+        "zh": "五十",
+        "py": "Wǔ shí",
+        "vi": "Năm mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 38,
+    "hanzi": "六十",
+    "pinyin": "liùshí",
+    "meaning": "sáu mươi",
+    "examples": [
+      {
+        "zh": "六十",
+        "py": "Liù shí",
+        "vi": "Sáu mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 39,
+    "hanzi": "七十",
+    "pinyin": "qīshí",
+    "meaning": "bảy mươi",
+    "examples": [
+      {
+        "zh": "七十",
+        "py": "Qī shí",
+        "vi": "Bảy mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 40,
+    "hanzi": "八十",
+    "pinyin": "bāshí",
+    "meaning": "tám mươi",
+    "examples": [
+      {
+        "zh": "八十",
+        "py": "Bā shí",
+        "vi": "Tám mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 41,
+    "hanzi": "九十",
+    "pinyin": "jiǔshí",
+    "meaning": "chín mươi",
+    "examples": [
+      {
+        "zh": "九十",
+        "py": "Jiǔ shí",
+        "vi": "Chín mươi"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "number"
+    ]
+  },
+  {
+    "id": 42,
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "meaning": "hàng trăm",
+    "examples": [
+      {
+        "zh": "一百一十二",
+        "py": "Yì bǎi yī shí èr",
+        "vi": "Một trăm mười hai (112)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 43,
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "meaning": "hàng nghìn",
+    "examples": [
+      {
+        "zh": "一千二百",
+        "py": "Yì qiān èr bǎi",
+        "vi": "Một nghìn hai trăm (1200)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 44,
+    "hanzi": "万",
+    "pinyin": "wàn",
+    "meaning": "hàng chục nghìn (vạn)",
+    "examples": [
+      {
+        "zh": "一万",
+        "py": "Yí wàn",
+        "vi": "Mười nghìn (10.000)"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 45,
+    "hanzi": "十万",
+    "pinyin": "shí wàn",
+    "meaning": "hàng trăm nghìn",
+    "examples": [
+      {
+        "zh": "十万",
+        "py": "Shí wàn",
+        "vi": "Một trăm nghìn (100.000)"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 46,
+    "hanzi": "百万",
+    "pinyin": "bǎi wàn",
+    "meaning": "hàng triệu",
+    "examples": [
+      {
+        "zh": "一百万",
+        "py": "Yì bǎi wàn",
+        "vi": "Một triệu (1.000.000)"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 47,
+    "hanzi": "千万",
+    "pinyin": "qiān wàn",
+    "meaning": "hàng chục triệu",
+    "examples": [
+      {
+        "zh": "一千万",
+        "py": "Yì qiān wàn",
+        "vi": "Mười triệu (10.000.000)"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 48,
+    "hanzi": "亿",
+    "pinyin": "yì",
+    "meaning": "hàng trăm triệu, tỷ",
+    "examples": [
+      {
+        "zh": "一亿",
+        "py": "Yí yì",
+        "vi": "Một trăm triệu (100.000.000)"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson2",
+      "unit",
+      "number"
+    ]
+  },
+  {
+    "id": 49,
+    "hanzi": "我叫",
+    "pinyin": "wǒ jiào",
+    "meaning": "tôi tên là",
+    "examples": [
+      {
+        "zh": "你好！我叫林美。",
+        "py": "Nǐ hǎo! Wǒ jiào Lín Měi.",
+        "vi": "Xin chào! Tôi tên là Lâm Mỹ."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "verb",
+      "identity"
+    ]
+  },
+  {
+    "id": 50,
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "meaning": "tên",
+    "examples": [
+      {
+        "zh": "你叫什么名字？",
+        "py": "Nǐ jiào shénme míngzi?",
+        "vi": "Bạn tên là gì?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "identity"
+    ]
+  },
+  {
+    "id": 51,
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaning": "là",
+    "examples": [
+      {
+        "zh": "我是中国人。",
+        "py": "Wǒ shì Zhōngguó rén.",
+        "vi": "Tôi là người Trung Quốc."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "verb"
+    ]
+  },
+  {
+    "id": 52,
+    "hanzi": "不",
+    "pinyin": "bù",
+    "meaning": "không",
+    "examples": [
+      {
+        "zh": "我不喜欢看书。",
+        "py": "Wǒ bù xǐhuan kàn shū.",
+        "vi": "Tôi không thích đọc sách."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "adverb",
+      "negative"
+    ]
+  },
+  {
+    "id": 53,
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaning": "có",
+    "examples": [
+      {
+        "zh": "你有什么爱好？",
+        "py": "Nǐ yǒu shénme àihào?",
+        "vi": "Bạn có sở thích gì?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "verb"
+    ]
+  },
+  {
+    "id": 54,
+    "hanzi": "人",
+    "pinyin": "rén",
+    "meaning": "người",
+    "examples": [
+      {
+        "zh": "我家有四口人。",
+        "py": "Wǒ jiā yǒu sì kǒu rén.",
+        "vi": "Nhà tôi có bốn người."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun"
+    ]
+  },
+  {
+    "id": 55,
+    "hanzi": "越南",
+    "pinyin": "yuènán",
+    "meaning": "Việt Nam",
+    "examples": [
+      {
+        "zh": "我是越南人。",
+        "py": "Wǒ shì Yuènán rén.",
+        "vi": "Tôi là người Việt Nam."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "country"
+    ]
+  },
+  {
+    "id": 56,
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "ba",
+    "examples": [
+      {
+        "zh": "我爸爸是老师。",
+        "py": "Wǒ bàba shì lǎoshī.",
+        "vi": "Ba tôi là giáo viên."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 57,
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "meaning": "mẹ",
+    "examples": [
+      {
+        "zh": "我妈妈也是老师。",
+        "py": "Wǒ māma yě shì lǎoshī.",
+        "vi": "Mẹ tôi cũng là giáo viên."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 58,
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "meaning": "anh trai",
+    "examples": [
+      {
+        "zh": "我有一个哥哥。",
+        "py": "Wǒ yǒu yí ge gēge.",
+        "vi": "Tôi có một anh trai."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 59,
+    "hanzi": "姐姐",
+    "pinyin": "jiě jie",
+    "meaning": "chị gái",
+    "examples": [
+      {
+        "zh": "我家有爸爸、妈妈、姐姐和我。",
+        "py": "Wǒ jiā yǒu bàba, māma, jiějie hé wǒ.",
+        "vi": "Nhà tôi có ba, mẹ, chị gái và tôi."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 60,
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "meaning": "em trai",
+    "examples": [
+      {
+        "zh": "我有一个弟弟。",
+        "py": "Wǒ yǒu yí ge dìdi.",
+        "vi": "Tôi có một em trai."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 61,
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "meaning": "em gái",
+    "examples": [
+      {
+        "zh": "这是我妹妹。",
+        "py": "Zhè shì wǒ mèimei.",
+        "vi": "Đây là em gái tôi."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 62,
+    "hanzi": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "ông nội",
+    "examples": [
+      {
+        "zh": "我爱我的爷爷。",
+        "py": "Wǒ ài wǒ de yéye.",
+        "vi": "Tôi yêu ông nội của tôi."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 63,
+    "hanzi": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning": "bà nội",
+    "examples": [
+      {
+        "zh": "这是我奶奶。",
+        "py": "Zhè shì wǒ nǎinai.",
+        "vi": "Đây là bà nội tôi."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 64,
+    "hanzi": "外公",
+    "pinyin": "wàigōng",
+    "meaning": "ông ngoại",
+    "examples": [
+      {
+        "zh": "我外公七十岁。",
+        "py": "Wǒ wàigōng qīshí suì.",
+        "vi": "Ông ngoại tôi bảy mươi tuổi."
+      }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 65,
+    "hanzi": "外婆",
+    "pinyin": "wàipó",
+    "meaning": "bà ngoại",
+    "examples": [
+      {
+        "zh": "我外婆是越南人。",
+        "py": "Wǒ wàipó shì Yuènán rén.",
+        "vi": "Bà ngoại tôi là người Việt Nam."
+      }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "family"
+    ]
+  },
+  {
+    "id": 66,
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "meaning": "tuổi",
+    "examples": [
+      {
+        "zh": "我二十三岁。",
+        "py": "Wǒ èrshísān suì.",
+        "vi": "Tôi hai mươi ba tuổi."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "age"
+    ]
+  },
+  {
+    "id": 67,
+    "hanzi": "中国",
+    "pinyin": "zhōngguó",
+    "meaning": "Trung Quốc",
+    "examples": [
+      {
+        "zh": "他是中国人。",
+        "py": "Tā shì Zhōngguó rén.",
+        "vi": "Anh ấy là người Trung Quốc."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "country"
+    ]
+  },
+  {
+    "id": 68,
+    "hanzi": "美国",
+    "pinyin": "měiguó",
+    "meaning": "Mỹ",
+    "examples": [
+      {
+        "zh": "她是美国人。",
+        "py": "Tā shì Měiguó rén.",
+        "vi": "Cô ấy là người Mỹ."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "country"
+    ]
+  },
+  {
+    "id": 69,
+    "hanzi": "日本",
+    "pinyin": "rìběn",
+    "meaning": "Nhật Bản",
+    "examples": [
+      {
+        "zh": "我是日本人。",
+        "py": "Wǒ shì Rìběn rén.",
+        "vi": "Tôi là người Nhật Bản."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "country"
+    ]
+  },
+  {
+    "id": 70,
+    "hanzi": "邑/村",
+    "pinyin": "yì / cūn",
+    "meaning": "ấp, làng",
+    "examples": [
+      {
+        "zh": "我住在这个村。",
+        "py": "Wǒ zhù zài zhège cūn.",
+        "vi": "Tôi sống ở ngôi làng này."
+      }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "location"
+    ]
+  },
+  {
+    "id": 71,
+    "hanzi": "社/社区",
+    "pinyin": "shè / shèqū",
+    "meaning": "xã, khu dân cư",
+    "examples": [
+      {
+        "zh": "我住在这个社区。",
+        "py": "Wǒ zhù zài zhège shèqū.",
+        "vi": "Tôi sống ở khu dân cư này."
+      }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "location"
+    ]
+  },
+  {
+    "id": 72,
+    "hanzi": "县",
+    "pinyin": "xiàn",
+    "meaning": "huyện",
+    "examples": [
+      {
+        "zh": "我住在平政县。",
+        "py": "Wǒ zhù zài Píngzhèng xiàn.",
+        "vi": "Tôi sống ở huyện Bình Chánh."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "location"
+    ]
+  },
+  {
+    "id": 73,
+    "hanzi": "省",
+    "pinyin": "shěng",
+    "meaning": "tỉnh",
+    "examples": [
+      {
+        "zh": "我住在平阳省。",
+        "py": "Wǒ zhù zài Píngyáng shěng.",
+        "vi": "Tôi sống ở tỉnh Bình Dương."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "location"
+    ]
+  },
+  {
+    "id": 74,
+    "hanzi": "市",
+    "pinyin": "shì",
+    "meaning": "thành phố",
+    "examples": [
+      {
+        "zh": "我住在胡志明市。",
+        "py": "Wǒ zhù zài Húzhìmíng shì.",
+        "vi": "Tôi sống ở thành phố Hồ Chí Minh."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "location"
+    ]
+  },
+  {
+    "id": 75,
+    "hanzi": "爱好",
+    "pinyin": "àihào",
+    "meaning": "sở thích",
+    "examples": [
+      {
+        "zh": "你有什么爱好？",
+        "py": "Nǐ yǒu shénme àihào?",
+        "vi": "Bạn có sở thích gì?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "noun",
+      "hobby"
+    ]
+  },
+  {
+    "id": 76,
+    "hanzi": "听音乐",
+    "pinyin": "tīng yīnyuè",
+    "meaning": "nghe nhạc",
+    "examples": [
+      {
+        "zh": "我的爱好是听音乐。",
+        "py": "Wǒ de àihào shì tīng yīnyuè.",
+        "vi": "Sở thích của tôi là nghe nhạc."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "hobby",
+      "activity"
+    ]
+  },
+  {
+    "id": 77,
+    "hanzi": "看书",
+    "pinyin": "kàn shū",
+    "meaning": "đọc sách",
+    "examples": [
+      {
+        "zh": "我的爱好是看书。",
+        "py": "Wǒ de àihào shì kàn shū.",
+        "vi": "Sở thích của tôi là đọc sách."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "hobby",
+      "activity"
+    ]
+  },
+  {
+    "id": 78,
+    "hanzi": "看电影",
+    "pinyin": "kàn diànyǐng",
+    "meaning": "xem phim",
+    "examples": [
+      {
+        "zh": "我喜欢看电影。",
+        "py": "Wǒ xǐhuān kàn diànyǐng.",
+        "vi": "Tôi thích xem phim."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "hobby",
+      "activity"
+    ]
+  },
+  {
+    "id": 79,
+    "hanzi": "看电视",
+    "pinyin": "kàn diànshì",
+    "meaning": "xem TV",
+    "examples": [
+      {
+        "zh": "我不喜欢看电视。",
+        "py": "Wǒ bù xǐhuan kàn diànshì.",
+        "vi": "Tôi không thích xem TV."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "hobby",
+      "activity"
+    ]
+  },
+  {
+    "id": 80,
+    "hanzi": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "vận động",
+    "examples": [
+      {
+        "zh": "我的爱好是听音乐和运动。",
+        "py": "Wǒ de àihào shì tīng yīnyuè hé yùndòng.",
+        "vi": "Sở thích của tôi là nghe nhạc và vận động."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "verb",
+      "hobby",
+      "activity"
+    ]
+  },
+  {
+    "id": 81,
+    "hanzi": "去旅游",
+    "pinyin": "qù lǚyóu",
+    "meaning": "đi du lịch",
+    "examples": [
+      {
+        "zh": "我喜欢去旅游。",
+        "py": "Wǒ xǐhuan qù lǚyóu.",
+        "vi": "Tôi thích đi du lịch."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "hobby",
+      "activity"
+    ]
+  },
+  {
+    "id": 82,
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning": "thích",
+    "examples": [
+      {
+        "zh": "我喜欢中文歌。",
+        "py": "Wǒ xǐhuān Zhōngwén gē.",
+        "vi": "Tôi thích bài hát tiếng Trung."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson3",
+      "verb",
+      "feeling"
+    ]
+  },
+  {
+    "id": 83,
+    "hanzi": "时间",
+    "pinyin": "shíjiān",
+    "meaning": "thời gian",
+    "examples": [
+      {
+        "zh": "明天早上 7 点你有时间吗？",
+        "py": "Míngtiān zǎoshang 7 diǎn nǐ yǒu shíjiān ma?",
+        "vi": "Sáng mai 7 giờ bạn có thời gian không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 84,
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaning": "giờ",
+    "examples": [
+      {
+        "zh": "现在几点？",
+        "py": "Xiànzài jǐ diǎn?",
+        "vi": "Bây giờ mấy giờ?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 85,
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "meaning": "phút",
+    "examples": [
+      {
+        "zh": "现在七点十分。",
+        "py": "Xiànzài qī diǎn shí fēn.",
+        "vi": "Bây giờ là bảy giờ mười phút."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 86,
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "meaning": "phút",
+    "examples": [
+      {
+        "zh": "一分钟有六十秒。",
+        "py": "Yì fēnzhōng yǒu liùshí miǎo.",
+        "vi": "Một phút có sáu mươi giây."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 87,
+    "hanzi": "秒",
+    "pinyin": "miǎo",
+    "meaning": "giây",
+    "examples": [
+      {
+        "zh": "一分钟有六十秒。",
+        "py": "Yì fēnzhōng yǒu liùshí miǎo.",
+        "vi": "Một phút có sáu mươi giây."
+      }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 88,
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "meaning": "giờ / tiếng (đồng hồ)",
+    "examples": [
+      {
+        "zh": "我每天工作八个小时。",
+        "py": "Wǒ měitiān gōngzuò bā ge xiǎoshí.",
+        "vi": "Mỗi ngày tôi làm việc tám tiếng."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 89,
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "hôm nay",
+    "examples": [
+      {
+        "zh": "今天你忙吗？",
+        "py": "Jīntiān nǐ máng ma?",
+        "vi": "Hôm nay bạn bận không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 90,
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "meaning": "hôm qua",
+    "examples": [
+      {
+        "zh": "昨天我很忙，没有时间休息。",
+        "py": "Zuótiān wǒ hěn máng, méiyǒu shíjiān xiūxi.",
+        "vi": "Hôm qua tôi rất bận, không có thời gian nghỉ ngơi."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 91,
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "ngày mai",
+    "examples": [
+      {
+        "zh": "明天我有时间。",
+        "py": "Míngtiān wǒ yǒu shíjiān.",
+        "vi": "Ngày mai tôi có thời gian."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 92,
+    "hanzi": "早上",
+    "pinyin": "zǎo shang",
+    "meaning": "buổi sáng",
+    "examples": [
+      {
+        "zh": "我早上七点吃饭。",
+        "py": "Wǒ zǎoshang qī diǎn chī fàn.",
+        "vi": "Tôi ăn cơm vào lúc bảy giờ sáng."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 93,
+    "hanzi": "中午",
+    "pinyin": "zhōng wǔ",
+    "meaning": "buổi trưa",
+    "examples": [
+      {
+        "zh": "中午十二点。",
+        "py": "Zhōngwǔ shí'èr diǎn.",
+        "vi": "Mười hai giờ trưa."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 94,
+    "hanzi": "下午",
+    "pinyin": "xià wǔ",
+    "meaning": "buổi chiều",
+    "examples": [
+      {
+        "zh": "我下午五点下班。",
+        "py": "Wǒ xiàwǔ wǔdiǎn xiàbān.",
+        "vi": "Tôi tan làm lúc năm giờ chiều."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 95,
+    "hanzi": "晚上",
+    "pinyin": "wǎn shang",
+    "meaning": "buổi tối",
+    "examples": [
+      {
+        "zh": "晚上好。",
+        "py": "Wǎnshang hǎo.",
+        "vi": "Chào buổi tối."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 96,
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "hiện tại",
+    "examples": [
+      {
+        "zh": "现在几点？",
+        "py": "Xiànzài jǐ diǎn?",
+        "vi": "Bây giờ mấy giờ?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 97,
+    "hanzi": "以前",
+    "pinyin": "yǐqián",
+    "meaning": "trước đây",
+    "examples": [
+      {
+        "zh": "以前我住在这里。",
+        "py": "Yǐqián wǒ zhù zài zhèlǐ.",
+        "vi": "Trước đây tôi sống ở đây."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 98,
+    "hanzi": "以后",
+    "pinyin": "yǐhòu",
+    "meaning": "sau này",
+    "examples": [
+      {
+        "zh": "以后我想去旅游。",
+        "py": "Yǐhòu wǒ xiǎng qù lǚyóu.",
+        "vi": "Sau này tôi muốn đi du lịch."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 99,
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "meaning": "ngày",
+    "examples": [
+      {
+        "zh": "今天是星期天。",
+        "py": "Jīntiān shì xīngqī tiān.",
+        "vi": "Hôm nay là chủ nhật."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "measure word",
+      "time"
+    ]
+  },
+  {
+    "id": 100,
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "meaning": "tháng",
+    "examples": [
+      {
+        "zh": "今天是 2025 年 5 月 30 号。",
+        "py": "Jīntiān shì èr líng èr wǔ nián wǔ yuè sān shí hào.",
+        "vi": "Hôm nay là ngày 30 tháng 5 năm 2025."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 101,
+    "hanzi": "年",
+    "pinyin": "nián",
+    "meaning": "năm",
+    "examples": [
+      {
+        "zh": "今年是 2025 年。",
+        "py": "Jīnnián shì 2025 nián.",
+        "vi": "Năm nay là năm 2025."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 102,
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "meaning": "tuần, thứ",
+    "examples": [
+      {
+        "zh": "下个星期，我想去旅游。",
+        "py": "Xià ge xīngqī, wǒ xiǎng qù lǚyóu.",
+        "vi": "Tuần sau, tôi muốn đi du lịch."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 103,
+    "hanzi": "有时候",
+    "pinyin": "yǒu shíhou",
+    "meaning": "có lúc, đôi khi",
+    "examples": [
+      {
+        "zh": "我有时候很忙，有时候不忙。",
+        "py": "Wǒ yǒushíhou hěn máng, yǒushíhou bù máng.",
+        "vi": "Tôi có lúc rất bận, có lúc không bận."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": 104,
+    "hanzi": "每天",
+    "pinyin": "měitiān",
+    "meaning": "mỗi ngày",
+    "examples": [
+      {
+        "zh": "我每天早上六点半起床。",
+        "py": "Wǒ měitiān zǎoshang liù diǎn bàn qǐchuáng.",
+        "vi": "Mỗi ngày tôi thức dậy lúc sáu giờ rưỡi sáng."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "noun",
+      "time"
+    ]
+  },
+  {
+    "id": 105,
+    "hanzi": "刚才",
+    "pinyin": "gāngcái",
+    "meaning": "vừa nãy",
+    "examples": [
+      {
+        "zh": "他刚才在这里。",
+        "py": "Tā gāngcái zài zhèlǐ.",
+        "vi": "Anh ấy vừa nãy ở đây."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": 106,
+    "hanzi": "常常",
+    "pinyin": "cháng cháng",
+    "meaning": "thường, thường xuyên",
+    "examples": [
+      {
+        "zh": "周末我常常去公园散步。",
+        "py": "Zhōumò wǒ cháng cháng qù gōngyuán sànbù.",
+        "vi": "Cuối tuần tôi thường đi dạo công viên."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "adverb",
+      "frequency"
+    ]
+  },
+  {
+    "id": 107,
+    "hanzi": "马上",
+    "pinyin": "mǎshàng",
+    "meaning": "ngay lập tức",
+    "examples": [
+      {
+        "zh": "我马上吃饭。",
+        "py": "Wǒ mǎshàng chī fàn.",
+        "vi": "Tôi lập tức ăn cơm."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "adverb",
+      "time"
+    ]
+  },
+  {
+    "id": 108,
+    "hanzi": "的时候",
+    "pinyin": "de shíhou",
+    "meaning": "lúc, khi",
+    "examples": [
+      {
+        "zh": "上班的时候，我很忙。",
+        "py": "Shàngbān de shíhou, wǒ hěn máng.",
+        "vi": "Lúc đi làm tôi rất bận."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson4",
+      "phrase",
+      "time"
+    ]
+  },
+  {
+    "id": 109,
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "meaning": "mua",
+    "examples": [
+      {
+        "zh": "我想买一双运动鞋。",
+        "py": "Wǒ xiǎng mǎi yì shuāng yùndòngxié.",
+        "vi": "Tôi muốn mua một đôi giày thể thao."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": 110,
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "meaning": "bán",
+    "examples": [
+      {
+        "zh": "这家杂货店卖很多东西。",
+        "py": "Zhè jiā záhuòdiàn mài hěn duō dōngxi.",
+        "vi": "Cửa hàng tạp hóa này bán rất nhiều đồ."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": 111,
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "meaning": "đồ đạc",
+    "examples": [
+      {
+        "zh": "我经常在淘宝买东西。",
+        "py": "Wǒ jīngcháng zài Táobǎo mǎi dōngxi.",
+        "vi": "Tôi thường xuyên mua đồ trên Taobao."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 112,
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "meaning": "tiền",
+    "examples": [
+      {
+        "zh": "这个多少钱？",
+        "py": "Zhège duōshao qián?",
+        "vi": "Cái này bao nhiêu tiền?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 113,
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaning": "siêu thị",
+    "examples": [
+      {
+        "zh": "我去超市买东西。",
+        "py": "Wǒ qù chāoshì mǎi dōngxi.",
+        "vi": "Tôi đi siêu thị mua đồ."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "place",
+      "shopping"
+    ]
+  },
+  {
+    "id": 114,
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "cửa hàng",
+    "examples": [
+      {
+        "zh": "今天我来商店买东西。",
+        "py": "Jīntiān wǒ lái shāngdiàn mǎi dōngxi.",
+        "vi": "Hôm nay tôi đến cửa hàng mua đồ."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "place",
+      "shopping"
+    ]
+  },
+  {
+    "id": 115,
+    "hanzi": "杂货店",
+    "pinyin": "zá huò diàn",
+    "meaning": "tạp hóa",
+    "examples": [
+      {
+        "zh": "这家杂货店卖很多东西。",
+        "py": "Zhè jiā záhuòdiàn mài hěn duō dōngxi.",
+        "vi": "Cửa hàng tạp hóa này bán rất nhiều đồ."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "place",
+      "shopping"
+    ]
+  },
+  {
+    "id": 116,
+    "hanzi": "咖啡店",
+    "pinyin": "kāfēi diàn",
+    "meaning": "tiệm cà phê/ quán nước",
+    "examples": [
+      {
+        "zh": "我在咖啡店喝咖啡。",
+        "py": "Wǒ zài kāfēidiàn hē kāfēi.",
+        "vi": "Tôi uống cà phê ở tiệm cà phê."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "place"
+    ]
+  },
+  {
+    "id": 117,
+    "hanzi": "便利店",
+    "pinyin": "biànlì diàn",
+    "meaning": "cửa hàng tiện lợi",
+    "examples": [
+      {
+        "zh": "我去便利店买水。",
+        "py": "Wǒ qù biànlìdiàn mǎi shuǐ.",
+        "vi": "Tôi đến cửa hàng tiện lợi mua nước."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "place",
+      "shopping"
+    ]
+  },
+  {
+    "id": 118,
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "quần áo",
+    "examples": [
+      {
+        "zh": "这件衣服很好看。",
+        "py": "Zhè jiàn yīfu hěn hǎokàn.",
+        "vi": "Bộ quần áo này rất đẹp."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 119,
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "meaning": "giày",
+    "examples": [
+      {
+        "zh": "这双鞋还有其他颜色吗？",
+        "py": "Zhè shuāng xié hái yǒu qítā yánsè ma?",
+        "vi": "Đôi giày này còn màu khác không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 120,
+    "hanzi": "拖鞋",
+    "pinyin": "tuōxié",
+    "meaning": "dép",
+    "examples": [
+      {
+        "zh": "给我一双黑色的拖鞋吧。",
+        "py": "Gěi wǒ yì shuāng hēisè de tuōxié ba.",
+        "vi": "Lấy cho tôi một đôi dép màu đen đi."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 121,
+    "hanzi": "运动鞋",
+    "pinyin": "yùndòng xié",
+    "meaning": "giày thể thao",
+    "examples": [
+      {
+        "zh": "我想买一双运动鞋。",
+        "py": "Wǒ xiǎng mǎi yì shuāng yùndòngxié.",
+        "vi": "Tôi muốn mua một đôi giày thể thao."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 122,
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning": "trái cây",
+    "examples": [
+      {
+        "zh": "我要买一些水果。",
+        "py": "Wǒ yào mǎi yìxiē shuǐguǒ.",
+        "vi": "Tôi muốn mua một ít trái cây."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "id": 123,
+    "hanzi": "蔬菜",
+    "pinyin": "shūcài",
+    "meaning": "rau",
+    "examples": [
+      {
+        "zh": "我去超市买蔬菜。",
+        "py": "Wǒ qù chāoshì mǎi shūcài.",
+        "vi": "Tôi đi siêu thị mua rau."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "id": 124,
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "meaning": "thịt",
+    "examples": [
+      {
+        "zh": "给我一斤肉。",
+        "py": "Gěi wǒ yì jīn ròu.",
+        "vi": "Lấy cho tôi nửa ký thịt."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "id": 125,
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "meaning": "cá",
+    "examples": [
+      {
+        "zh": "我想买一条鱼。",
+        "py": "Wǒ xiǎng mǎi yì tiáo yú.",
+        "vi": "Tôi muốn mua một con cá."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "id": 126,
+    "hanzi": "讲价",
+    "pinyin": "jiǎngjià",
+    "meaning": "trả giá",
+    "examples": [
+      {
+        "zh": "买东西可以讲价吗？",
+        "py": "Mǎi dōngxi kěyǐ jiǎngjià ma?",
+        "vi": "Mua đồ có thể trả giá không?"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": 127,
+    "hanzi": "打折",
+    "pinyin": "dǎ zhé",
+    "meaning": "giảm giá",
+    "examples": [
+      {
+        "zh": "这个可以打折吗？",
+        "py": "Zhège kěyǐ dǎ zhé ma?",
+        "vi": "Cái này có thể giảm giá không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "id": 128,
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "meaning": "bao nhiêu",
+    "examples": [
+      {
+        "zh": "这个多少钱？",
+        "py": "Zhège duōshao qián?",
+        "vi": "Cái này bao nhiêu tiền?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "question",
+      "shopping"
+    ]
+  },
+  {
+    "id": 129,
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "meaning": "rẻ",
+    "examples": [
+      {
+        "zh": "可以便宜一点吗？",
+        "py": "Kěyǐ piányi yìdiǎn ma?",
+        "vi": "Có thể rẻ một chút không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "adjective",
+      "shopping"
+    ]
+  },
+  {
+    "id": 130,
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "meaning": "mắc, đắt",
+    "examples": [
+      {
+        "zh": "这件衣服太贵了。",
+        "py": "Zhè jiàn yīfu tài guì le.",
+        "vi": "Bộ quần áo này đắt quá."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "adjective",
+      "shopping"
+    ]
+  },
+  {
+    "id": 131,
+    "hanzi": "质量",
+    "pinyin": "zhì liàng",
+    "meaning": "chất lượng",
+    "examples": [
+      {
+        "zh": "这个质量很好。",
+        "py": "Zhège zhìliàng hěn hǎo.",
+        "vi": "Chất lượng cái này rất tốt."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 132,
+    "hanzi": "品牌",
+    "pinyin": "pǐnpái",
+    "meaning": "thương hiệu",
+    "examples": [
+      {
+        "zh": "这是什么品牌？",
+        "py": "Zhè shì shénme pǐnpái?",
+        "vi": "Đây là thương hiệu gì?"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 133,
+    "hanzi": "网上购物",
+    "pinyin": "wǎngshàng gòuwù",
+    "meaning": "mua sắm trực tuyến",
+    "examples": [
+      {
+        "zh": "我喜欢在网上购物。",
+        "py": "Wǒ xǐhuan zài wǎng shàng gòuwù.",
+        "vi": "Tôi thích mua sắm trực tuyến."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "phrase",
+      "shopping"
+    ]
+  },
+  {
+    "id": 134,
+    "hanzi": "电商平台",
+    "pinyin": "diànshāng píngtái",
+    "meaning": "sàn thương mại điện tử",
+    "examples": [
+      {
+        "zh": "虾皮是一个电商平台。",
+        "py": "Xiāpí shì yí gè diànshāng píngtái.",
+        "vi": "Shopee là một sàn thương mại điện tử."
+      }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping"
+    ]
+  },
+  {
+    "id": 135,
+    "hanzi": "现金",
+    "pinyin": "xiànjīn",
+    "meaning": "tiền mặt",
+    "examples": [
+      {
+        "zh": "可以用现金或者转账付款吗？",
+        "py": "Kěyǐ yòng xiànjīn huòzhě zhuǎnzhàng fùkuǎn ma?",
+        "vi": "Có thể thanh toán bằng tiền mặt hoặc chuyển khoản không?"
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson5",
+      "noun",
+      "shopping",
+      "payment"
+    ]
+  },
+  {
+    "id": 136,
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning": "thức dậy",
+    "examples": [
+      {
+        "zh": "我早上七点起床。",
+        "py": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+        "vi": "Tôi thức dậy lúc bảy giờ sáng."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 137,
+    "hanzi": "洗漱",
+    "pinyin": "xǐshù",
+    "meaning": "vệ sinh cá nhân",
+    "examples": [
+      {
+        "zh": "起床以后，我洗漱。",
+        "py": "Qǐchuáng yǐhòu, wǒ xǐshù.",
+        "vi": "Sau khi thức dậy, tôi vệ sinh cá nhân."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 138,
+    "hanzi": "刷牙",
+    "pinyin": "shuā yá",
+    "meaning": "đánh răng",
+    "examples": [
+      {
+        "zh": "起床后，我先刷牙、洗脸。",
+        "py": "Qǐchuáng hòu, wǒ xiān shuā yá, xǐliǎn.",
+        "vi": "Sau khi thức dậy, đầu tiên tôi đánh răng, rửa mặt."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 139,
+    "hanzi": "洗脸",
+    "pinyin": "xǐliǎn",
+    "meaning": "rửa mặt",
+    "examples": [
+      {
+        "zh": "起床后，我先刷牙、洗脸。",
+        "py": "Qǐchuáng hòu, wǒ xiān shuā yá, xǐliǎn.",
+        "vi": "Sau khi thức dậy, đầu tiên tôi đánh răng, rửa mặt."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 140,
+    "hanzi": "吃早饭",
+    "pinyin": "chī zǎo fàn",
+    "meaning": "ăn sáng",
+    "examples": [
+      {
+        "zh": "吃完早饭，我就去上班。",
+        "py": "Chī wán zǎofàn, wǒ jiù qù shàngbān.",
+        "vi": "Ăn sáng xong, tôi liền đi làm."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "food"
+    ]
+  },
+  {
+    "id": 141,
+    "hanzi": "去洗手间",
+    "pinyin": "qù xǐshǒujiān",
+    "meaning": "đi vệ sinh",
+    "examples": [
+      {
+        "zh": "我要去洗手间。",
+        "py": "Wǒ yào qù xǐshǒujiān.",
+        "vi": "Tôi muốn đi vệ sinh."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "location"
+    ]
+  },
+  {
+    "id": 142,
+    "hanzi": "吃午饭",
+    "pinyin": "chī wǔ fàn",
+    "meaning": "ăn trưa",
+    "examples": [
+      {
+        "zh": "中午十二点，我吃午饭。",
+        "py": "Zhōngwǔ shí'èr diǎn, wǒ chī wǔfàn.",
+        "vi": "Mười hai giờ trưa, tôi ăn bữa trưa."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "food"
+    ]
+  },
+  {
+    "id": 143,
+    "hanzi": "吃晚饭",
+    "pinyin": "chī wǎn fàn",
+    "meaning": "ăn tối",
+    "examples": [
+      {
+        "zh": "晚上六点，我吃晚饭。",
+        "py": "Wǎnshang liù diǎn, wǒ chī wǎnfàn.",
+        "vi": "Sáu giờ tối, tôi ăn bữa tối."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "food"
+    ]
+  },
+  {
+    "id": 144,
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "meaning": "đi làm",
+    "examples": [
+      {
+        "zh": "吃完早饭，我就上班。",
+        "py": "Chī wán zǎofàn, wǒ jiù shàngbān.",
+        "vi": "Ăn sáng xong, tôi liền đi làm."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "work"
+    ]
+  },
+  {
+    "id": 145,
+    "hanzi": "上课",
+    "pinyin": "shàngkè",
+    "meaning": "đi học, lên lớp",
+    "examples": [
+      {
+        "zh": "我早上八点上课。",
+        "py": "Wǒ zǎoshang bā diǎn shàngkè.",
+        "vi": "Tôi đi học lúc tám giờ sáng."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "study"
+    ]
+  },
+  {
+    "id": 146,
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "meaning": "tan làm",
+    "examples": [
+      {
+        "zh": "下午五点，我下班回家。",
+        "py": "Xiàwǔ wǔ diǎn, wǒ xiàbān huí jiā.",
+        "vi": "Năm giờ chiều, tôi tan làm về nhà."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "work"
+    ]
+  },
+  {
+    "id": 147,
+    "hanzi": "出去玩",
+    "pinyin": "chūqù wán",
+    "meaning": "đi chơi",
+    "examples": [
+      {
+        "zh": "周末我们一起出去玩吧！",
+        "py": "Zhōumò wǒmen yìqǐ chūqù wán ba!",
+        "vi": "Cuối tuần chúng ta cùng nhau đi chơi nhé!"
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "phrase",
+      "activity"
+    ]
+  },
+  {
+    "id": 148,
+    "hanzi": "兼职",
+    "pinyin": "jiānzhí",
+    "meaning": "làm part-time, làm thêm",
+    "examples": [
+      {
+        "zh": "周末我做兼职。",
+        "py": "Zhōumò wǒ zuò jiānzhí.",
+        "vi": "Cuối tuần tôi làm part-time."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "noun",
+      "verb",
+      "work"
+    ]
+  },
+  {
+    "id": 149,
+    "hanzi": "忙碌",
+    "pinyin": "máng lù",
+    "meaning": "bận rộn",
+    "examples": [
+      {
+        "zh": "我的一天很忙碌。",
+        "py": "Wǒ de yì tiān hěn mánglù.",
+        "vi": "Một ngày của tôi rất bận rộn."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "adjective",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 150,
+    "hanzi": "空闲",
+    "pinyin": "kòng xián",
+    "meaning": "rảnh rỗi",
+    "examples": [
+      {
+        "zh": "空闲的时候我喜欢看书。",
+        "py": "Kòngxián de shíhou wǒ xǐhuan kàn shū.",
+        "vi": "Lúc rảnh rỗi tôi thích đọc sách."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "adjective",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 151,
+    "hanzi": "回家",
+    "pinyin": "huí jiā",
+    "meaning": "về nhà",
+    "examples": [
+      {
+        "zh": "我晚上八点回家。",
+        "py": "Wǒ wǎnshang bā diǎn huí jiā.",
+        "vi": "Tôi về nhà lúc tám giờ tối."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "location"
+    ]
+  },
+  {
+    "id": 152,
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "meaning": "nghỉ ngơi",
+    "examples": [
+      {
+        "zh": "吃过午饭，我休息一会儿。",
+        "py": "Chī guo wǔfàn, wǒ xiūxi yí huìr.",
+        "vi": "Ăn trưa xong, tôi nghỉ ngơi một lát."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 153,
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "meaning": "nấu ăn",
+    "examples": [
+      {
+        "zh": "回家后，我做晚饭。",
+        "py": "Huí jiā hòu, wǒ zuò wǎnfàn.",
+        "vi": "Sau khi về nhà, tôi nấu bữa tối."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine",
+      "food"
+    ]
+  },
+  {
+    "id": 154,
+    "hanzi": "洗澡",
+    "pinyin": "xǐzǎo",
+    "meaning": "tắm",
+    "examples": [
+      {
+        "zh": "九点左右，我洗澡。",
+        "py": "Jiǔ diǎn zuǒyòu, wǒ xǐzǎo.",
+        "vi": "Khoảng chín giờ, tôi đi tắm."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 155,
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "meaning": "ngủ",
+    "examples": [
+      {
+        "zh": "他一回家就睡觉。",
+        "py": "Tā yì huí jiā jiù shuìjiào.",
+        "vi": "Anh ấy vừa về nhà là ngủ."
+      }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 156,
+    "hanzi": "熬夜",
+    "pinyin": "áo yè",
+    "meaning": "thức khuya",
+    "examples": [
+      {
+        "zh": "对，我经常熬夜。",
+        "py": "Duì, wǒ jīngcháng áoyè.",
+        "vi": "Đúng vậy, tôi thường xuyên thức khuya."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "verb",
+      "daily-routine"
+    ]
+  },
+  {
+    "id": 157,
+    "hanzi": "一整",
+    "pinyin": "yì zhěng",
+    "meaning": "cả một...",
+    "examples": [
+      {
+        "zh": "我工作了一整天。",
+        "py": "Wǒ gōngzuò le yì zhěng tiān.",
+        "vi": "Tôi đã làm việc cả một ngày."
+      }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": [
+      "lesson6",
+      "phrase",
+      "time"
+    ]
   }
 ]

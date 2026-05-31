@@ -97,9 +97,18 @@ export default function QuizMode({ words, onNext }) {
         <div className={`quiz-result ${isCorrect ? 'correct' : 'wrong'}`}>
           <p>{isCorrect ? '✓ Chính xác!' : `✗ Đáp án: ${current.hanzi}`}</p>
           <p className="quiz-example">{current.examples?.[0]?.zh}</p>
+          {current.examples?.[0]?.py && (
+            <p className="quiz-example-py">{current.examples[0].py}</p>
+          )}
           <div className="quiz-actions">
-            <button type="button" className="btn btn-secondary btn-sm" onClick={() => speakChinese(current.hanzi)}>
-              🔊 Phát âm
+            <button
+              type="button"
+              className="btn btn-secondary btn-sm"
+              onClick={() =>
+                speakChinese(current.examples?.[0]?.zh || current.hanzi)
+              }
+            >
+              🔊 {current.examples?.[0]?.zh ? 'Đọc ví dụ' : 'Phát âm'}
             </button>
             <button type="button" className="btn btn-primary btn-sm" onClick={handleNext}>
               Câu tiếp →
