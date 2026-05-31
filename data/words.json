@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "màu sắc",
+    "examples": [
+      { "zh": "这个颜色很好看。", "vi": "Màu này rất đẹp." }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-31",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": ["design", "daily"]
+  },
+  {
+    "id": 2,
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "meaning": "công việc, làm việc",
+    "examples": [
+      { "zh": "我今天有很多工作。", "vi": "Hôm nay tôi có nhiều việc." },
+      { "zh": "他在公司工作。", "vi": "Anh ấy làm việc ở công ty." }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-28",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": ["work", "daily"]
+  },
+  {
+    "id": 3,
+    "hanzi": "设计",
+    "pinyin": "shèjì",
+    "meaning": "thiết kế",
+    "examples": [
+      { "zh": "这个设计很有创意。", "vi": "Thiết kế này rất sáng tạo." }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-25",
+    "lastReviewed": "2026-05-30",
+    "reviewCount": 3,
+    "tags": ["design", "work"]
+  },
+  {
+    "id": 4,
+    "hanzi": "吃饭",
+    "pinyin": "chīfàn",
+    "meaning": "ăn cơm, ăn uống",
+    "examples": [
+      { "zh": "我们一起吃饭吧。", "vi": "Chúng ta cùng ăn cơm nhé." }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-20",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": ["food", "daily"]
+  },
+  {
+    "id": 5,
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "cà phê",
+    "examples": [
+      { "zh": "我想喝一杯咖啡。", "vi": "Tôi muốn uống một ly cà phê." }
+    ],
+    "priority": 2,
+    "createdAt": "2026-05-18",
+    "lastReviewed": "2026-05-29",
+    "reviewCount": 5,
+    "tags": ["food", "daily"]
+  },
+  {
+    "id": 6,
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "meaning": "học tập",
+    "examples": [
+      { "zh": "我每天都在学习中文。", "vi": "Tôi học tiếng Trung mỗi ngày." }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-15",
+    "lastReviewed": "2026-05-31",
+    "reviewCount": 8,
+    "tags": ["daily"]
+  },
+  {
+    "id": 7,
+    "hanzi": "会议",
+    "pinyin": "huìyì",
+    "meaning": "cuộc họp",
+    "examples": [
+      { "zh": "下午三点有一个会议。", "vi": "Lúc 3 giờ chiều có một cuộc họp." }
+    ],
+    "priority": 4,
+    "createdAt": "2026-05-12",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": ["work"]
+  },
+  {
+    "id": 8,
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning": "đẹp, xinh đẹp",
+    "examples": [
+      { "zh": "这个房间很漂亮。", "vi": "Căn phòng này rất đẹp." }
+    ],
+    "priority": 3,
+    "createdAt": "2026-05-10",
+    "lastReviewed": "2026-05-27",
+    "reviewCount": 2,
+    "tags": ["design", "daily"]
+  },
+  {
+    "id": 9,
+    "hanzi": "菜单",
+    "pinyin": "càidān",
+    "meaning": "thực đơn",
+    "examples": [
+      { "zh": "请给我菜单。", "vi": "Xin cho tôi thực đơn." }
+    ],
+    "priority": 2,
+    "createdAt": "2026-05-08",
+    "lastReviewed": null,
+    "reviewCount": 0,
+    "tags": ["food"]
+  },
+  {
+    "id": 10,
+    "hanzi": "重要",
+    "pinyin": "zhòngyào",
+    "meaning": "quan trọng",
+    "examples": [
+      { "zh": "这是一个很重要的问题。", "vi": "Đây là một vấn đề rất quan trọng." }
+    ],
+    "priority": 5,
+    "createdAt": "2026-05-05",
+    "lastReviewed": "2026-05-26",
+    "reviewCount": 4,
+    "tags": ["work", "daily"]
+  }
+]
