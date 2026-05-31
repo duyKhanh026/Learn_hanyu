@@ -55,37 +55,35 @@ npm run preview
 
 ## Deploy lên GitHub Pages
 
+> **Lỗi thường gặp:** `Failed to load /src/main.jsx (404)`  
+> Nghĩa là GitHub Pages đang serve **source code** thay vì **bản build** (`dist/`).  
+> File `index.html` gốc có `/src/main.jsx` — chỉ dùng khi dev local. Sau build, script trỏ tới `/Learn_hanyu/assets/index-xxx.js`.
+
 ### Cách 1: GitHub Actions (khuyến nghị)
 
-1. Push code lên GitHub repo (ví dụ `Learn_hanyu`)
+1. Push code lên GitHub repo `Learn_hanyu`
 2. Vào **Settings → Pages → Build and deployment**
-3. Chọn **Source: GitHub Actions**
-4. Workflow `.github/workflows/deploy.yml` sẽ tự build và deploy khi push lên `main`
+3. **Source** phải là **GitHub Actions** (KHÔNG chọn "Deploy from a branch" → main)
+4. Push lên `main` — workflow tự `npm run build` rồi deploy thư mục `dist/`
+5. Mở site tại: `https://<username>.github.io/Learn_hanyu/`
+
+Nếu vừa đổi source, vào tab **Actions** → chạy lại workflow **Deploy to GitHub Pages** (Run workflow).
 
 ### Cách 2: Deploy thủ công bằng gh-pages
-
-1. Sửa `vite.config.js` nếu repo không phải user page:
-
-```js
-export default defineConfig({
-  plugins: [react()],
-  base: '/Learn_hanyu/',  // đổi thành tên repo của bạn
-});
-```
-
-2. Chạy:
 
 ```bash
 npm run deploy
 ```
 
-3. Vào **Settings → Pages**, chọn branch `gh-pages`
+Lệnh này build với `--base /Learn_hanyu/` rồi push thư mục `dist/` lên branch `gh-pages`.
+
+Sau đó vào **Settings → Pages** → chọn branch **`gh-pages`** / **`/ (root)`**.
 
 ### Lưu ý base path
 
-- Repo thường (`username.github.io/Learn_hanyu`): `base: '/Learn_hanyu/'`
-- User page (`username.github.io`): `base: '/'`
-- Mặc định hiện tại: `base: './'` (hoạt động với mọi path)
+- Repo project (`username.github.io/Learn_hanyu`): base = `/Learn_hanyu/` (đã cấu hình sẵn trong CI)
+- User page (`username.github.io`): đổi `VITE_BASE` thành `/` trong workflow
+- Local dev: `npm run dev` dùng `base: './'` — không ảnh hưởng
 
 ## Thêm từ vựng mới
 
