@@ -179,7 +179,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1.25rem;
-  min-height: 500px;
 }
 
 /* ===== Stats ===== */
@@ -466,7 +465,8 @@ body {
 
 .flashcard {
   width: 100%;
-  height: 420px;
+  min-height: 280px;
+  height: auto;
   cursor: pointer;
   position: relative;
 }
@@ -485,9 +485,8 @@ body {
 }
 
 .flashcard-inner {
+  display: grid;
   width: 100%;
-  height: 100%;
-  position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -497,27 +496,95 @@ body {
 }
 
 .flashcard-face {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
+  width: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: visible;
+}
+
+.flashcard-face.front {
   justify-content: center;
   gap: 0.75rem;
-  overflow-y: auto;
+  padding: 2rem 1.5rem;
+  min-height: 280px;
+}
+
+.flashcard:not(.flipped) .flashcard-face.back {
+  pointer-events: none;
+}
+
+.flashcard.flipped .flashcard-face.front {
+  pointer-events: none;
 }
 
 .flashcard-face.back {
   transform: rotateY(180deg);
   justify-content: flex-start;
-  padding-top: 2.5rem;
+  gap: 0.4rem;
+  padding: 2.25rem 1.25rem 1.25rem;
+}
+
+.flashcard-face.back .hanzi-display.small {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.flashcard-face.back .pinyin-display {
+  font-size: 1rem;
+}
+
+.flashcard-face.back .meaning-display {
+  font-size: 0.95rem;
+}
+
+.flashcard-face.back .examples {
+  margin-top: 0.15rem;
+}
+
+.flashcard-face.back .example-item {
+  padding: 0.45rem 0.65rem;
+  margin-bottom: 0.35rem;
+}
+
+.flashcard-face.back .example-item:last-child {
+  margin-bottom: 0;
+}
+
+.flashcard-face.back .example-zh {
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.flashcard-face.back .example-py {
+  font-size: 0.72rem;
+  margin-top: 0.1rem;
+}
+
+.flashcard-face.back .example-vi {
+  font-size: 0.75rem;
+  margin-top: 0.1rem;
+}
+
+.flashcard-face.back .meta-row {
+  margin-top: 0.25rem;
+}
+
+.flashcard-face.back .speak-actions {
+  margin-top: 0.35rem;
+}
+
+.flashcard-face.back .speak-btn {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.75rem;
+  margin-top: 0;
 }
 
 .favorite-btn {
@@ -1059,8 +1126,8 @@ kbd {
     font-size: 4rem;
   }
 
-  .flashcard {
-    height: 380px;
+  .flashcard-face.front {
+    min-height: 260px;
   }
 }
 
@@ -1077,8 +1144,13 @@ kbd {
     font-size: 3.5rem;
   }
 
-  .flashcard {
-    height: 340px;
+  .flashcard-face.front {
+    min-height: 240px;
+    padding: 1.5rem 1rem;
+  }
+
+  .flashcard-face.back {
+    padding: 2rem 1rem 1rem;
   }
 
   .nav-buttons {
